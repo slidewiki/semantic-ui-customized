@@ -186,11 +186,11 @@
 --------------------*/
 
 /*---  Colors  ---*/
-@red              : #DB2828;
-@orange           : #DA6619;
+@red              : #C42424;
+@orange           : #CA5010;
 @yellow           : #FFD900;
 @olive            : #B5CC18;
-@green            : #188130;
+@green            : #158538;
 @teal             : #158570;
 @blue             : #1E78BB;
 @violet           : #6435C9;
@@ -201,11 +201,11 @@
 @black            : #1B1C1D;
 
 /*---  Light Colors  ---*/
-@lightRed         : #E76A6A;
-@lightOrange      : #E28447;
+@lightRed         : #DEA7A7;
+@lightOrange      : #D98658;
 @lightYellow      : #FFE134;
 @lightOlive       : #CADB5D;
-@lightGreen       : #74B584;
+@lightGreen       : #88C19C;
 @lightTeal        : #8AC2B8;
 @lightBlue        : #7AB0D7;
 @lightViolet      : #A485DD;
@@ -302,9 +302,9 @@
 /* Positive */
 @positiveColor           : @green;
 @positiveBackgroundColor : #FCFFF5;
-@positiveBorderColor     : #146726;
-@positiveHeaderColor     : #146726;
-@positiveTextColor       : #146726;
+@positiveBorderColor     : #265326;
+@positiveHeaderColor     : #265326;
+@positiveTextColor       : #265326;
 
 /* Negative */
 @negativeColor           : @red;
@@ -316,15 +316,15 @@
 /* Info */
 @infoColor              : @lightBlue;
 @infoBackgroundColor    : #F8FFFF;
-@infoBorderColor        : #155482;
-@infoHeaderColor        : #155482;
-@infoTextColor          : #155482;
+@infoBorderColor        : @blue;
+@infoHeaderColor        : @blue;
+@infoTextColor          : @blue;
 
 /* Warning */
 @warningColor           : @orange;
-@warningBorderColor     : #984810;
+@warningBorderColor     : #8E380A;
 @warningBackgroundColor : #FFFAF3;
-@warningHeaderColor     : #984810;
+@warningHeaderColor     : #8E380A;
 @warningTextColor       : #@orange; // only use with large font sizes
 
 /*-------------------
@@ -474,7 +474,7 @@
 
 @solidInternalBorderColor  : #FAFAFA;
 @solidBorderColor          : #D4D4D5;
-@solidSelectedBorderColor  : #BCBDBD;
+@solidSelectedBorderColor  : #767676;
 
 @whiteBorderColor              : rgba(255, 255, 255, 0.1);
 @selectedWhiteBorderColor      : rgba(255, 255, 255, 0.8);
