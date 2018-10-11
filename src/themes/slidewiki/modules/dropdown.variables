@@ -13,6 +13,7 @@
 @borderRadius: @defaultBorderRadius;
 
 @raisedShadow: 0px 2px 3px 0px @borderColor;
+@focusShadow : 0em 0em 0em 0.25rem rgba(0,125,255,.35);
 
 /*-------------------
        Content
@@ -194,7 +195,7 @@
 
 /* Focus */
 @selectionFocusBorderColor: @focusedFormMutedBorderColor;
-@selectionFocusBoxShadow: none;
+@selectionFocusBoxShadow: @focusShadow;
 @selectionFocusMenuBoxShadow: @raisedShadow;
 
 /* Visible */
@@ -202,7 +203,7 @@
 @selectionVisibleTextColor: @hoveredTextColor;
 
 @selectionVisibleBorderColor: @focusedFormMutedBorderColor;
-@selectionVisibleBoxShadow: @raisedShadow;
+@selectionVisibleBoxShadow: @focusShadow;
 @selectionVisibleMenuBoxShadow: @raisedShadow;
 
 /* Visible Hover */
