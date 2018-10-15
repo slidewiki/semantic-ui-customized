@@ -34,3 +34,8 @@
 .dash:before  { content: '\e801'; }
 .plus:before { content: '\e802'; }
 */
+
+.ui.checkbox input:focus ~ .box:before, 
+.ui.checkbox input:focus ~ label:before {
+    box-shadow: 0 0 0 3px @generalFocusColorForms;
+}

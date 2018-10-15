@@ -60,3 +60,8 @@
   content: "\f0da";
 }
 */
+
+select.ui.dropdown:focus {
+    box-shadow: 0 0 0 3px @generalFocusColorForms;
+    border:1px solid @focusedFormBorderColor;
+}
