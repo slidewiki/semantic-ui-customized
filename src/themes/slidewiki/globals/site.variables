@@ -25,10 +25,10 @@
 --------------------*/
 
 /* This is the single variable that controls them all */
-@emSize   : 14px;
+@emSize   : 16px;
 
 /* The size of page text  */
-@fontSize : 14px;
+@fontSize : 16px;
 
 
 /*-------------------
@@ -61,10 +61,11 @@
 @headerLineHeight : 1.2857em;
 
 @h1 : 2rem;
-@h2 : 1.714rem;
-@h3 : 1.28rem;
-@h4 : 1.071rem;
-@h5 : 1rem;
+@h2 : 1.75rem;
+@h3 : 1.5rem;
+@h4 : 1.25rem;
+@h5 : 1.125rem;
+@h6 : 1rem;
 
 /*--------------
    Form Input
@@ -115,7 +116,7 @@
 @pageBackground      : #FFFFFF;
 @pageOverflowX       : hidden;
 
-@lineHeight          : 1.4285em;
+@lineHeight          : 1.5em;
 @textColor           : rgba(0, 0, 0, 0.87);
 
 /*-------------------
@@ -195,10 +196,11 @@
 @blue             : #1E78BB;
 @violet           : #6435C9;
 @purple           : #A333C8;
-@pink             : #E03997;
+@pink             : #8B2527; /* Pink is used for dark red colour in logo and home page */
 @brown            : #A5673F;
 @grey             : #767676;
 @black            : #1B1C1D;
+
 
 /*---  Light Colors  ---*/
 @lightRed         : #DEA7A7;
