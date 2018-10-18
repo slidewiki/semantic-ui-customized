@@ -93,7 +93,7 @@
 /* Focused */
 @focusBackgroundColor: @hoverBackgroundColor;
 @focusBackgroundImage: '';
-@focusBoxShadow: '';
+@focusBoxShadow: 0 0 0 2px @generalFocusColor inset;
 @focusColor: @hoveredTextColor;
 @iconFocusOpacity: 0.85;
 
@@ -214,7 +214,7 @@
 /* Basic Focus */
 @basicFocusBackground: @basicHoverBackground;
 @basicFocusTextColor: @basicHoverTextColor;
-@basicFocusBoxShadow: @basicHoverBoxShadow;
+@basicFocusBoxShadow: 0px 0px 0px 2px @generalFocusColor inset !important;
 
 /* Basic Down */
 @basicDownBackground: #F8F8F8;

@@ -1,3 +1,7 @@
 /*******************************
          Tab Overrides
 *******************************/
+
+.ui.menu.pointing .item:focus {
+    box-shadow: 0 0 0 2px @blueFocusColor inset;
+}
