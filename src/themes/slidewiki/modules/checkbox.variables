@@ -106,7 +106,7 @@
 @handleBackground: @white @subtleGradient;
 @handleBoxShadow:
   @subtleShadow,
-  0px 0px 0px 1px @borderColor inset
+  0px 0px 0px 1px rgba(34, 36, 38, 0.4) inset
 ;
 
 /* Slider */
@@ -160,7 +160,7 @@
   left @sliderTransitionDuration @defaultEasing
 ;
 
-@toggleLaneBackground: #C4C4C4;
+@toggleLaneBackground: #919191;
 @toggleLaneHeight: @toggleHandleSize;
 @toggleLaneBoxShadow: none;
 @toggleLaneVerticalOffset: 0rem;
