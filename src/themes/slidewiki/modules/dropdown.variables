@@ -13,7 +13,7 @@
 @borderRadius: @defaultBorderRadius;
 
 @raisedShadow: 0px 2px 3px 0px @borderColor;
-@focusShadow : 0em 0em 0em 0.25rem rgba(0,125,255,.35);
+@focusShadow : 0em 0em 0em 3px @generalFocusColor;
 
 /*-------------------
        Content

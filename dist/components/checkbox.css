@@ -626,8 +626,8 @@
 */
 .ui.checkbox input:focus ~ .box:before,
 .ui.checkbox input:focus ~ label:before {
-  -webkit-box-shadow: 0 0 0 3px rgba(0, 125, 255, 0.35);
-          box-shadow: 0 0 0 3px rgba(0, 125, 255, 0.35);
+  -webkit-box-shadow: 0 0 0 3px #5E9ACF;
+          box-shadow: 0 0 0 3px #5E9ACF;
 }
 
 

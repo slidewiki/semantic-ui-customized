@@ -847,8 +847,8 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   background-color: #CACBCD;
   color: rgba(0, 0, 0, 0.8);
   background-image: '' !important;
-  -webkit-box-shadow: 0 0 0 2px rgba(0, 125, 255, 0.5) inset !important;
-  box-shadow: 0 0 0 2px rgba(0, 125, 255, 0.5) inset !important;
+  -webkit-box-shadow: 0 0 0 2px #5E9ACF inset !important;
+  box-shadow: 0 0 0 2px #5E9ACF inset !important;
 }
 
 .ui.button:focus .icon {
@@ -1621,8 +1621,8 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .ui.basic.button:focus {
   background: #FFFFFF !important;
   color: rgba(0, 0, 0, 0.8) !important;
-  -webkit-box-shadow: 0px 0px 0px 2px rgba(0, 125, 255, 0.5) inset !important;
-  box-shadow: 0px 0px 0px 2px rgba(0, 125, 255, 0.5) inset !important;
+  -webkit-box-shadow: 0px 0px 0px 2px #5E9ACF inset !important;
+  box-shadow: 0px 0px 0px 2px #5E9ACF inset !important;
 }
 
 .ui.basic.buttons .button:active,
@@ -20478,8 +20478,8 @@ ol.ui.horizontal.list li:before,
   border-color: #85B7D9;
   border-radius: 0.25rem;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
-  box-shadow: 0px 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
+  -webkit-box-shadow: 0px 0em 0em 3px #5E9ACF;
+  box-shadow: 0px 0em 0em 3px #5E9ACF;
 }
 
 .ui.form textarea:focus {
@@ -20487,8 +20487,8 @@ ol.ui.horizontal.list li:before,
   border-color: #85B7D9;
   border-radius: 0.25rem;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
-  box-shadow: 0px 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
+  -webkit-box-shadow: 0px 0em 0em 3px #5E9ACF;
+  box-shadow: 0px 0em 0em 3px #5E9ACF;
   -webkit-appearance: none;
 }
 
@@ -31812,8 +31812,8 @@ a.ui.card:hover,
 
 .ui.checkbox input:focus ~ .box:before,
 .ui.checkbox input:focus ~ label:before {
-  -webkit-box-shadow: 0 0 0 3px rgba(0, 125, 255, 0.35);
-  box-shadow: 0 0 0 3px rgba(0, 125, 255, 0.35);
+  -webkit-box-shadow: 0 0 0 3px #5E9ACF;
+  box-shadow: 0 0 0 3px #5E9ACF;
 }
 
 /*******************************
@@ -32576,8 +32576,8 @@ select.ui.dropdown {
 
 .ui.selection.active.dropdown {
   border-color: #96C8DA;
-  -webkit-box-shadow: 0em 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
-  box-shadow: 0em 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
+  -webkit-box-shadow: 0em 0em 0em 3px #5E9ACF;
+  box-shadow: 0em 0em 0em 3px #5E9ACF;
 }
 
 .ui.selection.active.dropdown .menu {
@@ -32590,8 +32590,8 @@ select.ui.dropdown {
 
 .ui.selection.dropdown:focus {
   border-color: #96C8DA;
-  -webkit-box-shadow: 0em 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
-  box-shadow: 0em 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
+  -webkit-box-shadow: 0em 0em 0em 3px #5E9ACF;
+  box-shadow: 0em 0em 0em 3px #5E9ACF;
 }
 
 .ui.selection.dropdown:focus .menu {
@@ -32611,8 +32611,8 @@ select.ui.dropdown {
 
 .ui.selection.active.dropdown:hover {
   border-color: #96C8DA;
-  -webkit-box-shadow: 0em 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
-  box-shadow: 0em 0em 0em 0.25rem rgba(0, 125, 255, 0.35);
+  -webkit-box-shadow: 0em 0em 0em 3px #5E9ACF;
+  box-shadow: 0em 0em 0em 3px #5E9ACF;
 }
 
 .ui.selection.active.dropdown:hover .menu {
@@ -33717,8 +33717,8 @@ select.ui.dropdown {
 */
 
 select.ui.dropdown:focus {
-  -webkit-box-shadow: 0 0 0 3px rgba(0, 125, 255, 0.35);
-  box-shadow: 0 0 0 3px rgba(0, 125, 255, 0.35);
+  -webkit-box-shadow: 0 0 0 3px #5E9ACF;
+  box-shadow: 0 0 0 3px #5E9ACF;
   border: 1px solid #85B7D9;
 }
 
@@ -37852,8 +37852,8 @@ body.pushable > .pusher {
 *******************************/
 
 .ui.menu.pointing .item:focus {
-  -webkit-box-shadow: 0 0 0 2px rgba(0, 125, 255, 0.5) inset;
-  box-shadow: 0 0 0 2px rgba(0, 125, 255, 0.5) inset;
+  -webkit-box-shadow: 0 0 0 2px #5E9ACF inset;
+  box-shadow: 0 0 0 2px #5E9ACF inset;
 }
 
 /*******************************

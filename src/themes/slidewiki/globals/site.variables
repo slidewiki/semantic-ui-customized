@@ -700,8 +700,7 @@
 @offWhiteFocus        : darken(@offWhite, 8);
 @darkWhiteFocus       : darken(@darkWhite, 8);
 
-@generalFocusColor       : rgba(0,125,255,.5);
-@generalFocusColorForms  : rgba(0,125,255,.35);
+@generalFocusColor       : #5E9ACF;
 
 /*-------------------
     Down (:active)
