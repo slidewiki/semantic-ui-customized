@@ -672,6 +672,11 @@
 @lightGreyFocus       : saturate(darken(@lightGrey, 8), 20, relative);
 @lightBlackFocus      : saturate(darken(@fullBlack, 8), 20, relative);
 
+@primaryFocusShadowColor : lighten(@primaryColorFocus, 30);
+@secondaryFocusShadowColor : lighten(@secondaryColorFocus, 30);
+@positiveFocusShadowColor : lighten(@greenFocus, 30);
+@negativeFocusShadowColor : lighten(@redFocus, 30);
+
 /*---  Emotive  ---*/
 @positiveColorFocus   : saturate(darken(@positiveColor, 8), 20, relative);
 @negativeColorFocus   : saturate(darken(@negativeColor, 8), 20, relative);
@@ -696,6 +701,7 @@
 @offWhiteFocus        : darken(@offWhite, 8);
 @darkWhiteFocus       : darken(@darkWhite, 8);
 
+@generalFocusColor       : #5E9ACF;
 
 /*-------------------
     Down (:active)
