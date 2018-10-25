@@ -64,7 +64,7 @@
 @h2 : 1.75rem;
 @h3 : 1.5rem;
 @h4 : 1.25rem;
-@h5 : 1.125rem;
+@h5 : 1rem;
 @h6 : 1rem;
 
 /*--------------
@@ -78,7 +78,7 @@
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
 
 /* Line Height Default For Inputs in Browser */
-@inputLineHeight: 1.2142em;
+@inputLineHeight: 1.2875em;
 
 /*-------------------
     Focused Input
@@ -107,6 +107,7 @@
 @bigSize         : (18 / 14);
 @hugeSize        : (20 / 14);
 @massiveSize     : (24 / 14);
+
 
 
 /*-------------------
@@ -700,8 +701,7 @@
 @offWhiteFocus        : darken(@offWhite, 8);
 @darkWhiteFocus       : darken(@darkWhite, 8);
 
-@generalFocusColor       : rgba(0,125,255,.5);
-@generalFocusColorForms  : rgba(0,125,255,.35);
+@generalFocusColor       : #5E9ACF;
 
 /*-------------------
     Down (:active)

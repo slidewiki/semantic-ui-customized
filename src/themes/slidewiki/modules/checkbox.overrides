@@ -37,5 +37,5 @@
 
 .ui.checkbox input:focus ~ .box:before, 
 .ui.checkbox input:focus ~ label:before {
-    box-shadow: 0 0 0 3px @generalFocusColorForms;
+    box-shadow: 0 0 0 3px @generalFocusColor;
 }

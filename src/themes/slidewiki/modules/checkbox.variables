@@ -106,7 +106,7 @@
 @handleBackground: @white @subtleGradient;
 @handleBoxShadow:
   @subtleShadow,
-  0px 0px 0px 1px @borderColor inset
+  0px 0px 0px 1px rgba(34, 36, 38, 0.4) inset
 ;
 
 /* Slider */
@@ -160,7 +160,7 @@
   left @sliderTransitionDuration @defaultEasing
 ;
 
-@toggleLaneBackground: @transparentBlack;
+@toggleLaneBackground: #919191;
 @toggleLaneHeight: @toggleHandleSize;
 @toggleLaneBoxShadow: none;
 @toggleLaneVerticalOffset: 0rem;
@@ -172,8 +172,8 @@
 @toggleLabelOffset: 0.15em;
 
 
-@toggleFocusColor: @veryStrongTransparentBlack;
-@toggleHoverColor: @toggleFocusColor;
+@toggleFocusColor: @toggleLaneBackground;
+@toggleHoverColor: @toggleLaneBackground;
 
 @toggleOffLabelColor: @checkboxColor;
 @toggleOffHandleBoxShadow: @handleBoxShadow;
