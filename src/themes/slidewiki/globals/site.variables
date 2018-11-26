@@ -672,7 +672,7 @@
 @lightGreyFocus       : saturate(darken(@lightGrey, 8), 20, relative);
 @lightBlackFocus      : saturate(darken(@fullBlack, 8), 20, relative);
 
-@primaryFocusShadowColor : lighten(@primaryColorFocus, 30);
+@primaryFocusShadowColor : @pinkFocus;
 @secondaryFocusShadowColor : lighten(@secondaryColorFocus, 30);
 @positiveFocusShadowColor : lighten(@greenFocus, 30);
 @negativeFocusShadowColor : lighten(@redFocus, 30);
