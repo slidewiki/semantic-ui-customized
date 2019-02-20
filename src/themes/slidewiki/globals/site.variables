@@ -80,6 +80,9 @@
 /* Line Height Default For Inputs in Browser */
 @inputLineHeight: 1.2875em;
 
+@inputPlaceholderColor: lighten(@inputColor, 35);
+@inputPlaceholderFocusColor: lighten(@inputColor, 15);
+
 /*-------------------
     Focused Input
 --------------------*/
@@ -577,7 +580,7 @@
 --------------------*/
 
 @disabledOpacity: 0.45;
-@disabledTextColor: rgba(40, 40, 40, 0.3);
+@disabledTextColor: rgba(40, 40, 40, 0.65);
 @invertedDisabledTextColor: rgba(225, 225, 225, 0.3);
 
 /*-------------------
