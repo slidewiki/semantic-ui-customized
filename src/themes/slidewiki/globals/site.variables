@@ -678,7 +678,7 @@
 @primaryFocusShadowColor : @pinkFocus;
 @secondaryFocusShadowColor : lighten(@secondaryColorFocus, 30);
 @positiveFocusShadowColor : lighten(@greenFocus, 30);
-@negativeFocusShadowColor : lighten(@redFocus, 30);
+@negativeFocusShadowColor : darken(@redFocus, 50);
 
 /*---  Emotive  ---*/
 @positiveColorFocus   : saturate(darken(@positiveColor, 8), 20, relative);
