@@ -52,7 +52,7 @@
 /* Date */
 @dateMargin: -0.5rem 0em 0em;
 @datePadding: 0em;
-@dateColor: @lightTextColor;
+@dateColor: rgba(0, 0, 0, 0.6); //@lightTextColorcd
 @dateFontSize: @relativeMedium;
 @dateFontWeight: @normal;
 @dateFontStyle: @normal;

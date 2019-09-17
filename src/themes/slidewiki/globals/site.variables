@@ -80,6 +80,9 @@
 /* Line Height Default For Inputs in Browser */
 @inputLineHeight: 1.2875em;
 
+@inputPlaceholderColor: lighten(@inputColor, 35);
+@inputPlaceholderFocusColor: lighten(@inputColor, 15);
+
 /*-------------------
     Focused Input
 --------------------*/
@@ -577,7 +580,7 @@
 --------------------*/
 
 @disabledOpacity: 0.45;
-@disabledTextColor: rgba(40, 40, 40, 0.3);
+@disabledTextColor: rgba(40, 40, 40, 0.65);
 @invertedDisabledTextColor: rgba(225, 225, 225, 0.3);
 
 /*-------------------
@@ -675,7 +678,7 @@
 @primaryFocusShadowColor : @pinkFocus;
 @secondaryFocusShadowColor : lighten(@secondaryColorFocus, 30);
 @positiveFocusShadowColor : lighten(@greenFocus, 30);
-@negativeFocusShadowColor : lighten(@redFocus, 30);
+@negativeFocusShadowColor : darken(@redFocus, 50);
 
 /*---  Emotive  ---*/
 @positiveColorFocus   : saturate(darken(@positiveColor, 8), 20, relative);
