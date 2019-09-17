@@ -547,7 +547,7 @@ select.ui.dropdown {
 /* Search Dropdown */
 .ui.search.dropdown > input.search {
   background: none transparent !important;
-  border: none !important;
+  border: 0 solid @focusedFormBorderColor!important;
   box-shadow: none !important;
   cursor: text;
   top: 0em;
@@ -556,6 +556,17 @@ select.ui.dropdown {
   outline: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   padding: inherit;
+  transition: @transition;
+}
+
+.ui.search.dropdown > input.search:focus {
+  border:1px solid @focusedFormBorderColor!important;
+  box-shadow: 0px 0em 0em 3px @generalFocusColor!important;
+}
+
+.ui.search.dropdown.active > input.search:focus {
+  border: 0 solid @focusedFormBorderColor!important;
+  box-shadow: none !important;
 }
 
 /* Text Layering */
