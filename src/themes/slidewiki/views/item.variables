@@ -93,7 +93,7 @@
 /* Links */
 @headerLinkColor: @headerColor;
 @headerLinkHoverColor: @linkHoverColor;
-@metaLinkColor: @lightTextColor;
+@metaLinkColor: rgba(0, 0, 0, 0.6); //might be a good idea to change $lightTextColor, to a color that meets WCAG contrast guidelines. For now, a hardcoded color is used
 @metaLinkHoverColor: @textColor;
 @contentLinkColor: '';
 @contentLinkHoverColor: '';
