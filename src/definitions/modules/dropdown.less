@@ -547,7 +547,7 @@ select.ui.dropdown {
 /* Search Dropdown */
 .ui.search.dropdown > input.search {
   background: none transparent !important;
-  border: 0 solid @focusedFormBorderColor!important;
+  border: none !important;
   box-shadow: none !important;
   cursor: text;
   top: 0em;
@@ -559,14 +559,9 @@ select.ui.dropdown {
   transition: @transition;
 }
 
-.ui.search.dropdown > input.search:focus {
+.ui.search.dropdown.focus {
   border:1px solid @focusedFormBorderColor!important;
   box-shadow: 0px 0em 0em 3px @generalFocusColor!important;
-}
-
-.ui.search.dropdown.active > input.search:focus {
-  border: 0 solid @focusedFormBorderColor!important;
-  box-shadow: none !important;
 }
 
 /* Text Layering */
