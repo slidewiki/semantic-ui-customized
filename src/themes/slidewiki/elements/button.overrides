@@ -6,24 +6,24 @@
 .ui.primary.button:focus,
 .ui.blue.buttons .button:focus,
 .ui.blue.button:focus {
-    box-shadow: 0 0 0 2px @primaryFocusShadowColor inset !important;
+    box-shadow: 0 0 0 @focusWidth @secondaryFocusColor !important;
 }
 
 .ui.secondary.buttons .button:focus,
-.ui.secondary.button:focus {
-    box-shadow: 0 0 0 2px @secondaryFocusShadowColor inset !important;
-}
- 
+.ui.secondary.button:focus, 
+.ui.button.grey:focus,
 .ui.positive.buttons .button:focus,
 .ui.positive.button:focus,
 .ui.green.buttons .button:focus,
-.ui.green.button:focus {
-    box-shadow: 0 0 0 2px @positiveFocusShadowColor inset !important;
-}
-
+.ui.green.button:focus,
 .ui.negative.buttons .button:focus,
 .ui.negative.button:focus,
 .ui.red.buttons .button:focus,
-.ui.red.button:focus {
-    box-shadow: 0 0 0 2px @negativeFocusShadowColor inset !important;
+.ui.red.button:focus,
+.ui.button.secondary-focus:focus {
+    box-shadow: 0 0 0 @focusWidth @secondaryFocusColor !important;
+}
+
+.button:focus {
+    z-index: 3;
 }

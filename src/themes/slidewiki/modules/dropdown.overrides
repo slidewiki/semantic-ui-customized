@@ -62,6 +62,6 @@
 */
 
 select.ui.dropdown:focus {
-    box-shadow: 0 0 0 3px @generalFocusColor;
+    box-shadow: 0 0 0 2px @generalFocusColor;
     border:1px solid @focusedFormBorderColor;
 }

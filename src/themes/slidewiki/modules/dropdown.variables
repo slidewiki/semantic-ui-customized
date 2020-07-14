@@ -13,7 +13,7 @@
 @borderRadius: @defaultBorderRadius;
 
 @raisedShadow: 0px 2px 3px 0px @borderColor;
-@focusShadow : 0em 0em 0em 3px @generalFocusColor;
+@focusShadow : 0em 0em 0em @focusWidth @generalFocusColor;
 
 /*-------------------
        Content
@@ -142,7 +142,7 @@
 @selectionMessagePadding: @selectionItemPadding;
 
 /* <select> */
-@selectBorder: 1px solid @borderColor;
+@selectBorder: 1px solid @borderColorInput;
 @selectPadding: 0.5em;
 @selectVisibility: visible;
 @selectHeight: 38px;
@@ -153,7 +153,7 @@
 @selectionTextUnderlayColor: @inputPlaceholderFocusColor;
 
 @selectionBoxShadow: none;
-@selectionBorderColor: @borderColor;
+@selectionBorderColor: @borderColorInput;
 @selectionBorder: 1px solid @selectionBorderColor;
 @selectionBorderRadius: @borderRadius;
 

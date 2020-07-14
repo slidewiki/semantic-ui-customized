@@ -88,7 +88,7 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
+@focusedFormBorderColor: #225786;
 
 /* Used on dropdowns, other larger blocks */
 @focusedFormMutedBorderColor: #96C8DA;
@@ -193,7 +193,7 @@
 /*---  Colors  ---*/
 @red              : #C42424;
 @orange           : #CA5010;
-@yellow           : #FFD900;
+@yellow           : #B88A00; /* #FFD900 */
 @olive            : #B5CC18;
 @green            : #158538;
 @teal             : #158570;
@@ -472,6 +472,7 @@
 @circularRadius                : 500rem;
 
 @borderColor               : rgba(34, 36, 38, 0.15);
+@borderColorInput          : #757575;
 @strongBorderColor         : rgba(34, 36, 38, 0.22);
 @internalBorderColor       : rgba(34, 36, 38, 0.1);
 @selectedBorderColor       : rgba(34, 36, 38, 0.35);
@@ -675,11 +676,6 @@
 @lightGreyFocus       : saturate(darken(@lightGrey, 8), 20, relative);
 @lightBlackFocus      : saturate(darken(@fullBlack, 8), 20, relative);
 
-@primaryFocusShadowColor : @pinkFocus;
-@secondaryFocusShadowColor : lighten(@secondaryColorFocus, 30);
-@positiveFocusShadowColor : lighten(@greenFocus, 30);
-@negativeFocusShadowColor : darken(@redFocus, 50);
-
 /*---  Emotive  ---*/
 @positiveColorFocus   : saturate(darken(@positiveColor, 8), 20, relative);
 @negativeColorFocus   : saturate(darken(@negativeColor, 8), 20, relative);
@@ -704,7 +700,9 @@
 @offWhiteFocus        : darken(@offWhite, 8);
 @darkWhiteFocus       : darken(@darkWhite, 8);
 
-@generalFocusColor       : #5E9ACF;
+@generalFocusColor       : #306CA1;
+@secondaryFocusColor     : #000000;
+@focusWidth              : 2px;
 
 /*-------------------
     Down (:active)
