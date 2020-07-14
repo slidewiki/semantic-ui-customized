@@ -3,5 +3,6 @@
 *******************************/
 
 .ui.menu.pointing .item:focus {
-    box-shadow: 0 0 0 2px @generalFocusColor inset;
+    box-shadow: 0 0 0 @focusWidth @generalFocusColor;
+    z-index: 1;
 }
